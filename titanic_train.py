@@ -26,6 +26,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 from statsmodels.formula.api import ols
+from scipy.stats import chi2_contingency
 
 #%% static code
 # load data path
@@ -135,9 +136,6 @@ df2['Survived'] = df2['Survived'].astype(int)
 # relationship between categorical variables and categorical target variable
 # chisquaretest
 # p-value<0.05 => dependent
-# H0: No significant relation
-# H1: There is significant relationship
-from scipy.stats import chi2_contingency
 # convert data into a contigency table with frequencies
 contingency_pclass = pd.crosstab(df['Pclass'],df['Survived'])
 c, p, dof, expected = chi2_contingency(contingency_pclass)
