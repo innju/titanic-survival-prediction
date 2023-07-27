@@ -62,5 +62,7 @@ Please click at the link below to view the app:
 [Titanic survival prediction](https://titanic-survival-heroku.herokuapp.com/)
 <br>You may refers to [Deploying a basic Streamlit app to Heroku](https://towardsdatascience.com/deploying-a-basic-streamlit-app-to-heroku-be25a527fcb3) for detailed steps on deployment. Thanks to Mr. Muralidhar.
 
+<br>**Notice: Heroku is no longer free as of the end of 2022. Hence, the application on Heroku has been removed. However, you can still run the streamlit file on your local host by following this tutorial: [Run Streamlit Script](https://docs.streamlit.io/knowledge-base/using-streamlit/how-do-i-run-my-streamlit-script)**
 
 <br>Thanks for reading.
+
